@@ -79,4 +79,4 @@ The script spins up the proxy on `127.0.0.1:18000`, calls `/v1/models`, `/v1/cha
 
 ### License
 
-MIT (see `LICENSE` / `package.json`).
+MIT (see `LICENSE`).
