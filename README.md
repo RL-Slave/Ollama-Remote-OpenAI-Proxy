@@ -19,21 +19,6 @@ VS Code / Tool ──► http://127.0.0.1:11434 ──► Remote Ollama (z. B.
 - Dedicated **Logs** view with timestamped history plus copy / clear buttons.
 - CLI smoke test (`node scripts/run-proxy-test.js`) for fast end-to-end verification.
 
-### Requirements
-
-- Node.js ≥ 18
-- VS Code ≥ 1.84
-- Reachable Ollama server (HTTP or HTTPS)
-
-### Installation
-
-```bash
-npm install
-npm run compile
-```
-
-Launch the Extension Development Host via the included “Run Ollama Proxy Extension” configuration (`F5`, see `.vscode/launch.json`).
-
 ### Configuration
 
 Settings live under **Settings → Ollama Remote Proxy** (or `settings.json`):
